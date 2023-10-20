@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Young+Serif&display=swap" rel="stylesheet">
+
+</head>
+<body id="body">
+    <nav class="navbar justify-content-center bg-dark border-bottom border-body" data-bs-theme="dark">
+        <a class="navbar-brand" href="#"><h3>Shopping List</h3></a>
+    </nav>
+
+    <article class="container-fluid">
+        <div class="text-center">
+            <h1 class="coolTitle">Welcome dear user!</h1>
+        </div>
+        <div class="input-group">
+            <input id="userInput" type="text" class="" placeholder="Items" aria-label="Insert items">
+            <button class="btn btn-outline-primary" type="button" id="add">Add</button>
+            <button class="btn btn-outline-info" type="button" id="reset">Reset</button>
+            <button class="btn btn-outline-danger" type="button" id="deleteAll">Remove All</button>
+            <button class="btn btn-outline-success" type="button" id="print">Print</button>
+        </div>
+
+        <div class="list" id="list">
+            <ul>
+
+            </ul>
+        </div>
+    </article>
+
+    <footer>
+        <div class="footerItems">
+            <a href="https://bluebutterflies.github.io/ButterflyTech/"  target="_blank">Build with ♥ from Butterfly Tech Creative Solution</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
